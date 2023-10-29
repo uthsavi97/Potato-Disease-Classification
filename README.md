@@ -179,7 +179,7 @@ cd gcp
 gcloud functions deploy predict --runtime python38 --trigger-http --memory 512 --project project_id
 ```
 
-8. Your model is now deployed.
+8. model is now deployed.
 9. Use Postman to test the GCF using the [Trigger URL](https://cloud.google.com/functions/docs/calling/http).
 
 
