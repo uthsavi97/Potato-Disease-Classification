@@ -1,11 +1,15 @@
-# Potato-Disease-Classification
-This is the deep learning project series in agriculture domain. Farmers every year face economic loss and crop waste due to various diseases in potato plants. We will use image classification using CNN. 
+##  A Deep Learning Journey into Precision Agriculture
 
-Technology stack for this project will be,
-1. Model Building: tensorflow, CNN, data augmentation, tf dataset
-2. Backend Server and ML Ops: tf serving, FastAPI
-3. Model Optimization: Quantization, Tensorflow lite
+This project tackles a critical challenge in agriculture: potato blight, a devastating disease causing significant economic losses and crop waste for farmers worldwide. Leveraging the power of deep learning, we aim to empower farmers with a mobile app that accurately diagnoses potato blight in real-time, enabling early intervention and improved crop yields.
 
+**Technical Arsenal:**
+
+* **Model Building:** Tensorflow serves as our AI playground, where we construct a robust Convolutional Neural Network (CNN). Data augmentation techniques artificially diversify our dataset, boosting model generalizability. Tensorflow datasets ensure efficient data pipeline management.
+* **Backend and ML Ops:** TF Serving seamlessly deploys and serves our trained model, while FastAPI builds a lightning-fast and scalable backend API.
+* **Model Optimization:** Quantization and Tensorflow Lite shrink the model size and enhance on-device inference speed, making it ideal for mobile deployment.
+* **Frontend:** React JS crafts a sleek and user-friendly web interface, while React Native brings the app to life on farmers' smartphones.
+* **Deployment:** Google Cloud Platform (GCP) provides the perfect launchpad. Google Cloud Functions (GCF) effortlessly serve API requests, ensuring scalability and cost-efficiency.
+* 
 ## Setup for Python:
 
 2. Install Python packages
